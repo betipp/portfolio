@@ -10,10 +10,6 @@
         I'm interested in creating fun and interactive websites and have a
         passion for graphic design.</a
       ><br />
-      <a class="secondery-font">
-        I'm interested in creating fun and interactive websites and have a
-        passion for graphic design.
-      </a>
       <a class="secondery-font"
         >My hobbies consist of drawing and game development. I am always looking
         for a way to bring ideas to life.🎮🎨</a
