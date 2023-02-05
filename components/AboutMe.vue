@@ -4,11 +4,15 @@
       <a class="main-font pb-5">About Me 🍊</a>
       <a class="secondery-font"
         >I am a bachelor of Computer and Information Science working on my
-        master's in multimedia 🏫
-      </a>
+        master's in multimedia. 🏫 </a
+      ><br />
       <a class="secondery-font">
-        I'm interested in creating fun and interactive websites and have a
-        passion for graphic design.</a
+        Curently working as a game developer, what's could be better than making
+        fun games for a living?🐱‍💻</a
+      >
+      <a class="secondery-font">
+        I am also interested graphic design and creating fun and interactive
+        websites.</a
       ><br />
       <a class="secondery-font"
         >My hobbies consist of drawing and game development. I am always looking
