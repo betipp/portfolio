@@ -7,11 +7,11 @@
         master's in multimedia. 🏫 </a
       ><br />
       <a class="secondery-font">
-        Curently working as a game developer, what's could be better than making
+        Currently working as a game developer, what could be better than making
         fun games for a living?🐱‍💻</a
       >
       <a class="secondery-font">
-        I am also interested graphic design and creating fun and interactive
+        I am also interested in graphic design and creating fun and interactive
         websites.</a
       ><br />
       <a class="secondery-font"
