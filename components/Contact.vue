@@ -28,7 +28,7 @@
                   class="mt-4 fab fa-github fa-5x pr-4 linkIcon"
                 ></a>
                 <a
-                  href="mailto:someone@yoursite.com"
+                  href="mailto:betipisc@gmail.com"
                   style="text-decoration: none  color: white;"
                   class="mt-4 fas fa-envelope-open-text fa-5x pr-4 linkIcon"
                 ></a>
