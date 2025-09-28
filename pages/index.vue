@@ -14,18 +14,19 @@
 <script>
 export default {
   beforeCreate() {
-    this.showHideSpinner = true
+    this.showHideSpinner = true;
   },
   mounted() {
-    //Its really pretty okey...
-    setTimeout(() => (this.showHideSpinner = false), 500)
+    // Its really pretty okey...
+    setTimeout(() => (this.showHideSpinner = false), 500);
+
   },
   data() {
     return {
       showHideSpinner: true,
-    }
+    };
   },
-}
+};
 </script>
 
 <style>

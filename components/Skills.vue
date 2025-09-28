@@ -16,6 +16,7 @@
         <a class="p-2">Python</a>
         <a class="p-2">Git</a>
         <a class="p-2">SQL-database</a>-->
+        <i class="fab fa-blender fa-5x pr-4 icon"></i>
         <i class="fab fa-unity fa-5x pr-4 icon"></i>
         <i class="fab fa-html5 fa-5x pr-4 icon"></i>
         <i class="fab fa-js-square fa-5x pr-4 icon"></i>
@@ -39,10 +40,10 @@ i {
 }
 
 .icon:hover {
-  color: orangered;
+  color: #ffa908;
   animation: wiggle 400ms infinite;
   animation-timing-function: linear;
-  transition: 1s ease-in-out all;
+  transition: 0.3s ease-in-out all;
 }
 
 @media screen and (max-width: 499px) {
@@ -84,7 +85,7 @@ i {
 .main-font {
   font-family: karla, sans-serif;
   font-size: 30px;
-  color: orangered;
+  color:  #ffa908;
 }
 .secondery-font {
   font-family: karla, sans-serif;

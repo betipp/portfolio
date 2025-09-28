@@ -7,6 +7,7 @@
       items-center
       pt-0
       flex-wrap
+      vh-90
     "
   >
     <link
@@ -14,7 +15,7 @@
       rel="stylesheet"
     />
     <div class="p-5 rounded title mr-5">
-      <p class="h3 pb-2" style="font-family: 'Times New Roman'">
+      <p class="h3 pb-2" style="font-family: 'Dongle'; font-size: 60px;">
         Hello, I'm Beti. 👋
       </p>
       <p class="">
@@ -32,8 +33,14 @@
 </template>
 
 <style scoped>
+
+@font-face {
+  font-family: "Dongle";
+  src: url('../assets/Dongle-Bold.ttf');
+}
+
 .title {
-  background-color: #fb9005;
+  background-color: #ffa600;
   color: white;
   font-family: 'Courier New', monospace;
   transition: 0.5s;

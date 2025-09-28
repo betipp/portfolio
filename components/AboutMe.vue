@@ -3,19 +3,18 @@
     <div class="d-flex justify-content-center min-h-screen items-left col-10">
       <a class="main-font pb-5">About Me 🍊</a>
       <a class="secondery-font"
-        >I am a bachelor of Computer and Information Science working on my
-        master's in multimedia. 🏫 </a
+        >I am a bachelor of Computer and Information Science.🏫 </a
       ><br />
       <a class="secondery-font">
-        Currently working as a game developer, what could be better than making
-        fun games for a living?🐱‍💻</a
+        In love bringing ideas to life through programming and design.
+        VFX and 3D modeling let me express my creativity. ✨</a
       >
       <a class="secondery-font">
         I am also interested in graphic design and creating fun and interactive
         websites.</a
       ><br />
       <a class="secondery-font"
-        >My hobbies consist of drawing and game development. I am always looking
+        >My hobbies consist of arts and crafts and game development. I am always looking
         for a way to bring ideas to life.🎮🎨</a
       >
     </div>
@@ -33,7 +32,7 @@ span a {
 .main-font {
   font-family: karla, sans-serif;
   font-size: 30px;
-  color: orangered;
+  color:  #ffa908;
 }
 .secondery-font {
   font-family: karla, sans-serif;

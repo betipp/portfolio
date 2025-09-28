@@ -16,32 +16,34 @@
             <p class="main-font">I'm here! 📧</p>
             <div class="">
               <a class="secondery-font"
-                >If you wanna say hello or ask about a project, you can find me
+                >If you want to say hello or ask about a project, you can find me
                 here!</a
               ><br />
 
-              <div class="linkIcon">
+              <div class="icon-container">
                 <a
                   href="https://github.com/betipp"
                   target="_blank"
-                  style="text-decoration: none  color: white;"
+                  style="text-decoration: none; color: white;"
                   class="mt-4 fab fa-github fa-5x pr-4 linkIcon"
                 ></a>
+              </div>
+              <div class="icon-container">
                 <a
                   href="mailto:betipisc@gmail.com"
-                  style="text-decoration: none  color: white;"
+                  style="text-decoration: none; color: white;"
                   class="mt-4 fas fa-envelope-open-text fa-5x pr-4 linkIcon"
                 ></a>
+              </div>
+              <div class="icon-container">
                 <a
                   href="https://pompam.itch.io/"
                   target="_blank"
-                  style="text-decoration: none  color: white;"
-                  class="fab fa-itch-io fa-5x pr-4 icon linkIcon"
+                  style="text-decoration: none; color: white;"
+                  class="fab fa-itch-io fa-5x pr-4 linkIcon"
                 ></a>
               </div>
             </div>
-
-            <!--Say hello-->
           </div>
         </div>
       </div>
@@ -50,26 +52,42 @@
 </template>
 
 <style scoped>
-/*a {
-  font-weight: bold;
-}*/
+.icon-container {
+  display: inline-block; 
+  margin-right: 1rem; 
+}
+
+.linkIcon {
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
 
 .linkIcon:hover {
-  color: #292b2c;
-  -webkit-transition: color 1s;
-  -moz-transition: color 1s;
-  -ms-transition: color 1s;
-  -o-transition: color 1s;
-  transition: color 1s;
+  animation: wiggle 0.5s ease-in-out infinite;
 }
-.linkIcon {
-  color: #fff;
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
 }
 
 .main-font {
   font-family: karla, sans-serif;
   font-size: 30px;
-  color: orangered;
+  color: #ffa908;
 }
 .secondery-font {
   font-family: karla, sans-serif;
@@ -83,7 +101,7 @@
 }
 a {
   text-decoration: none;
-  color: #292b2c;
+  color: #fff;
 }
 img {
   width: 80px;
@@ -91,10 +109,8 @@ img {
 }
 
 .bgColor {
-  background-color: #fcb177;
+  background-color: #ffc14f;
 }
-
-/* Zig zag stuff */
 
 #d-wrapper {
   background-color: #fff;
@@ -111,8 +127,8 @@ img {
 }
 
 #d-wrapper .zig-zag-top:before {
-  background: linear-gradient(-45deg, #fcb177 16px, transparent 0),
-    linear-gradient(45deg, #fcb177 16px, transparent 0);
+  background: linear-gradient(-45deg, #ffc14f 16px, transparent 0),
+    linear-gradient(45deg, #ffc14f 16px, transparent 0);
   background-position: left top;
   background-repeat: repeat-x;
   background-size: 22px 32px;
@@ -129,7 +145,7 @@ img {
 
 #d-wrapper .zig-zag-top {
   margin-bottom: 0;
-  background: #fcb177;
+  background: #ffc14f;
 }
 
 #d-wrapper .zig-zag-top {
