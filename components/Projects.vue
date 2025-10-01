@@ -238,11 +238,14 @@ a:hover {
   background-image: url('../assets/ZoomiesBG.png');
   background-size: cover;
   background-position: center;
+  color: #c0443b;
+
 }
 
 .kindle-bg {
   background-image: url('../assets/KindleBg.png');
   background-size: cover;
   background-position: center;
+  color: white;
 }
 </style>

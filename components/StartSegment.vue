@@ -46,9 +46,9 @@
   transition: 0.5s;
 }
 img {
-  width: 170px;
-  height: 170px;
-  animation-duration: 2s;
+  width: 250px;
+  height: 250px;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 
@@ -76,7 +76,7 @@ img {
     transform: scale(1.1, 0.9) translateY(0);
   }
   30% {
-    transform: scale(0.9, 1.1) translateY(-50px);
+    transform: scale(0.9, 1.1) translateY(-60px);
   }
   50% {
     transform: scale(1, 1) translateY(0);
