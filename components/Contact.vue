@@ -18,30 +18,33 @@
               <a class="secondery-font"
                 >If you want to say hello or ask about a project, you can find me
                 here!</a
-              ><br />
-
-              <div class="icon-container">
-                <a
+              >
+              <br />
+              <div class="icon-container mt-2">
+                <img
                   href="https://github.com/betipp"
                   target="_blank"
-                  style="text-decoration: none; color: white;"
-                  class="mt-4 fab fa-github fa-5x pr-4 linkIcon"
-                ></a>
+                  style="text-decoration: none;"
+                  class="linkIcon filter-white mr-1"
+                  src="../assets/Icons/icon_github.svg"
+                />
               </div>
               <div class="icon-container">
-                <a
+                <img
                   href="mailto:betipisc@gmail.com"
                   style="text-decoration: none; color: white;"
-                  class="mt-4 fas fa-envelope-open-text fa-5x pr-4 linkIcon"
-                ></a>
+                  class="linkIcon filter-white mr-1"
+                  src="../assets/Icons/icon_mail.svg"
+                />
               </div>
               <div class="icon-container">
-                <a
+                <img
                   href="https://pompam.itch.io/"
                   target="_blank"
                   style="text-decoration: none; color: white;"
-                  class="fab fa-itch-io fa-5x pr-4 linkIcon"
-                ></a>
+                  class="linkIcon filter-white mr-1"
+                  src="../assets/Icons/icon_itchIo.svg"
+                />
               </div>
             </div>
           </div>
@@ -62,6 +65,10 @@
   color: #fff;
   transition: transform 0.3s ease-in-out;
   position: relative;
+}
+
+.filter-white{
+  filter: invert(98%) sepia(98%) saturate(10%) hue-rotate(214deg) brightness(101%) contrast(102%);
 }
 
 .linkIcon:hover {

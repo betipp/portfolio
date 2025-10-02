@@ -4,32 +4,19 @@
       <p class="main-font pb-5 pt-5 pt-md-0">Technologies 🔧</p>
       <a class="secondery-font pb-5"
         >This is the list of technologies I have gathered in my toolkit! 🧰</a
-      >
+        >
       <div class="d-flex flex-wrap">
-        <!--
-        <a class="p-2">HTML5 + CSS3</a>
-        <a class="p-2">JS</a>
-        <a class="p-2">Vue</a>
-        <a class="p-2">PHP</a>
-        <a class="p-2">Java</a>
-        <a class="p-2">Android</a>
-        <a class="p-2">Python</a>
-        <a class="p-2">Git</a>
-        <a class="p-2">SQL-database</a>-->
-        <i class="fab fa-blender fa-5x pr-4 icon"></i>
-        <i class="fab fa-unity fa-5x pr-4 icon"></i>
-        <i class="fab fa-html5 fa-5x pr-4 icon"></i>
-        <i class="fab fa-js-square fa-5x pr-4 icon"></i>
-        <i class="fab fa-vuejs fa-5x pr-4 icon"></i>
-        <i class="fab fa-android fa-5x pr-4 icon"></i>
-        <i class="fab fa-python fa-5x pr-4 icon"></i>
-        <i class="fas fa-database fa-5x pr-4 icon"></i>
-        <i class="fab fa-git fa-5x pr-4 icon"></i>
-        <i class="fab fa-java fa-5x pr-4 icon"></i>
-        <i class="fab fa-php fa-5x pr-4 icon"></i>
+        <img class="icon mr-1" src="../assets/Icons/icon_unity.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_html.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_js.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_vue.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_android.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_php.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_database.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_git.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_java.svg"/>
+        <img class="icon mr-1" src="../assets/Icons/icon_php.svg"/>
       </div>
-
-      <!--Say hello-->
     </div>
   </div>
 </template>
@@ -44,6 +31,7 @@ i {
   animation: wiggle 400ms infinite;
   animation-timing-function: linear;
   transition: 0.3s ease-in-out all;
+  filter: invert(55%) sepia(82%) saturate(524%) hue-rotate(358deg) brightness(104%) contrast(108%);
 }
 
 @media screen and (max-width: 499px) {
